@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root {
+    --dark-purple: #1C0948;
+    --light-purple: #390073;
+    --pink: #F72585;
+    --blue: #4CC9F0;
+
+    font-family: 'Bungee', "Roboto Light", monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-purple);
+
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+
+    line-height: 1.2;
+
+    padding: 0;
+    margin: 2rem 0 3rem;
+
+    text-shadow: 0 7px 0 var(--pink);
+    border-bottom: 5px solid var(--pink);
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+
+    margin: 1rem 0 0;
+    padding: 0;
+}
+
+.game-board {
+    background-color: var(--light-purple);
+
+    width: 31rem;
+    height: 31rem;
+
+    margin: 1rem 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-between;
+    gap: 2px;
+}
+
+.game-cell {
+    background-color: var(--dark-purple);
+    border: none;
+
+    font-size: 4rem;
+
+    min-width: 10.1rem;
+    min-height: 10.1rem;
+}
+
+.game-cell:hover {
+    filter: brightness(125%);
+}
+
+.X {
+    background: no-repeat center/53% url("images/X.svg") var(--dark-purple);
+}
+
+.O {
+    background: no-repeat center/53% url("images/O.svg") var(--dark-purple);
+}
+
+.restart {
+    background-color: var(--pink);
+    color: var(--dark-purple);
+
+    border: none;
+    border-radius: 15px;
+
+    font-family: inherit;
+    font-size: 1.5rem;
+
+
+    height: 4rem;
+    width: 10rem;
+}
+
+.restart:hover {
+    background-color: var(--blue);
+}
+
+::selection {
+    color: var(--dark-purple);
+    background-color: var(--blue);
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        font-size: 10px;
+    }
+
+    body {
+        padding-top: 5rem;
+    }
+}
