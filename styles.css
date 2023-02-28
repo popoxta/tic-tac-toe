@@ -92,6 +92,8 @@ h2 {
 
     height: 4rem;
     width: 10rem;
+    
+    transition: background-color 0.2s ease-in-out;
 }
 
 .restart:hover {
