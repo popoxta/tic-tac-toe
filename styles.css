@@ -119,7 +119,7 @@ h2 {
         margin: 1rem;
     }
     .game-cell {
-        min-width: 10rem;
-        min-height: 10rem;
+        min-width: 9.8rem;
+        min-height: 9.8rem;
     }
 }
