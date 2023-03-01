@@ -54,7 +54,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     place-content: space-between;
-    gap: 2px;
 }
 
 .game-cell {
@@ -65,7 +64,6 @@ h2 {
 
     min-width: 10.1rem;
     min-height: 10.1rem;
-
 }
 
 .game-cell:hover {
@@ -117,9 +115,5 @@ h2 {
 
     .restart {
         margin: 1rem;
-    }
-    .game-cell {
-        min-width: 9.9rem;
-        min-height: 9.9rem;
     }
 }
