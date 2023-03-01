@@ -116,4 +116,13 @@ h2 {
     .restart {
         margin: 1rem;
     }
+
+    .game-board{
+        box-shadow: 0 0 0 2px var(--dark-purple) inset;
+    }
+
+    .game-cell{
+        min-width: 9.85rem;
+        min-height: 9.85rem;
+    }
 }
