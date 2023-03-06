@@ -5,6 +5,8 @@
 A neat little Tic Tac Toe game for [TOP](https://www.theodinproject.com/)!
 This project was mainly focused on using factory functions and the module pattern (dog balls) in JavaScript.
 
+![image](TTT-preview.png)
+
 My main ( personal ) objectives in this task were, again, to keep practicing my planning and pseudocode skills.
 To accomplish this, once again, I created a design via the use of Figma and drew diagrams for this project.
 
